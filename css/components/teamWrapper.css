@@ -1,0 +1,286 @@
+body {
+    background-color: var(--light-gray);
+}
+
+.container {
+    width: 100%;
+}
+
+/* Team */
+
+.container .team {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Supervision */
+
+.container .team .left {
+    width: 30%;
+    display: grid;
+    align-items: center;
+}
+
+.container .team .left .team-supervision {
+    background-color: var(--light-gray);
+    border-top: 5px solid var(--cyan);
+    border-radius: 10px 10px 10px 10px;
+    width: 60%;
+    padding: 3em;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .team .left .team-supervision h1 {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.container .team .left .team-supervision p {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--grayish-blue)
+}
+
+.container .team .left .team-supervision figure {
+    width: 100%;
+}
+
+.container .team .left .team-supervision figure img {
+    float: right;
+    padding: 2em 0 2em 2em;
+    width: 30%;
+}
+
+/* Builder */
+
+.container .team .center {
+    width: 30%;
+    display: grid;
+    align-items: center;
+}
+
+.container .team .center .team-builder {
+    background-color: var(--light-gray);
+    border-top: 5px solid var(--red);
+    border-radius: 10px 10px 10px 10px;
+    width: 60%;
+    padding: 3em;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .team .center .team-builder h1 {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.container .team .center .team-builder p {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--grayish-blue)
+}
+
+.container .team .center .team-builder figure {
+    width: 100%;
+}
+
+.container .team .center .team-builder figure img {
+    float: right;
+    padding: 2em 0 0em 2em;
+    width: 30%;
+}
+
+/* Karma */
+
+.container .team .center .team-karma {
+    background-color: var(--light-gray);
+    border-top: 5px solid var(--orange);
+    border-radius: 10px 10px 10px 10px;
+    width: 60%;
+    padding: 3em;
+    margin-top: 2em;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .team .center .team-karma h1 {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.container .team .center .team-karma p {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--grayish-blue);
+}
+
+.container .team .center .team-karma figure {
+    width: 100%;
+}
+
+.container .team .center .team-karma figure img {
+    float: right;
+    padding: 2em 0 0em 2em;
+    width: 30%;
+}
+
+/* Calculator */
+
+.container .team .right {
+    width: 30%;
+    display: grid;
+    align-items: center;
+}
+
+.container .team .right .team-calculator {
+    background-color: var(--light-gray);
+    border-top: 5px solid var(--blue);
+    border-radius: 10px 10px 10px 10px;
+    width: 60%;
+    padding: 3em;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .team .right .team-calculator h1 {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.container .team .right .team-calculator p {
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--grayish-blue);
+}
+
+.container .team .right .team-calculator figure {
+    width: 100%;
+}
+
+.container .team .right .team-calculator figure img {
+    float: right;
+    padding: 2em 0 0em 2em;
+    width: 30%;
+}
+
+@media (max-width: 700px) {
+    /* Team */
+    .container .team {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+    }
+    /* Supervision */
+    .container .team .left {
+        width: 100%;
+        justify-items: center;
+        margin-bottom: 2em;
+    }
+    .container .team .left .team-supervision {
+        width: 70%;
+    }
+    .container .team .left .team-supervision h1 {
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 0.5em;
+    }
+    .container .team .left .team-supervision p {
+        font-size: 18px;
+    }
+    .container .team .left .team-supervision figure {
+        width: 100%;
+    }
+    .container .team .left .team-supervision figure img {
+        float: right;
+        padding: 2em 0 2em 2em;
+        width: 20%;
+    }
+    /* Builder */
+    .container .team .center {
+        width: 100%;
+        justify-items: center;
+    }
+    .container .team .center .team-builder {
+        width: 70%;
+        margin-bottom: 2em;
+    }
+    .container .team .center .team-builder h1 {
+        font-size: 16px;
+        padding-bottom: 0.5em;
+    }
+    .container .team .center .team-builder p {
+        font-size: 14px;
+    }
+    .container .team .center .team-builder figure {
+        width: 100%;
+        justify-items: center;
+    }
+    .container .team .center .team-builder figure img {
+        float: right;
+        padding: 2em 0 0em 2em;
+        width: 30%;
+    }
+    /* Karma */
+    .container .team .center .team-karma {
+        margin-bottom: 2em;
+        width: 70%;
+    }
+    .container .team .center .team-karma h1 {
+        font-family: var(--poppins);
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 0.5em;
+    }
+    .container .team .center .team-karma p {
+        font-size: 14px;
+    }
+    .container .team .center .team-karma figure {
+        width: 100%;
+        justify-items: center;
+    }
+    .container .team .center .team-karma figure img {
+        padding: 2em 0 0em 2em;
+        width: 30%;
+    }
+    /* Calculator */
+    .container .team .right {
+        width: 70%;
+        justify-items: center;
+    }
+    .container .team .right .team-calculator {
+        width: 100%;
+        padding: 3em;
+        box-shadow: 0px 0 20px rgba(0, 0, 0, 0.2);
+        margin-bottom: 2em;
+    }
+    .container .team .right .team-calculator h1 {
+        font-family: var(--poppins);
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 0.5em;
+    }
+    .container .team .right .team-calculator p {
+        font-family: var(--poppins);
+        font-size: 14px;
+        font-weight: 200;
+        color: var(--grayish-blue);
+    }
+    .container .team .right .team-calculator figure {
+        width: 100%;
+    }
+    .container .team .right .team-calculator figure img {
+        float: right;
+        padding: 2em 0 0em 2em;
+        width: 30%;
+    }
+}
